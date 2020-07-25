@@ -173,13 +173,13 @@ input{
   margin:10px 0;
   height:30px;
   width:65%;
-  max-width: 700px;
+  max-width: 750px;
   border-radius: 5px;
 }
 
 textarea {
   width: 65%;
-  max-width: 700px;
+  max-width: 750px;
   border-radius: 5px;
   margin-bottom: 17px;
 }
