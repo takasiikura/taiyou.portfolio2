@@ -4,12 +4,16 @@ body {
   background-color: white;
   margin: 0;
   text-align: center;
-  
 }
 
 .last p {
-	color: white;
+  color: white;
+  margin-bottom: 100px;
 	transition: color .3s, text-decoration .3s;
+}
+
+.tt {
+  margin-bottom: 0px;
 }
 
 .last p:hover {
@@ -35,9 +39,7 @@ header p {
   padding: 60px 0px;
 }
 
-/* main {
-  background-color: white;
-} */
+
 
 main .img {
   display: none;
@@ -171,13 +173,13 @@ input{
   margin:10px 0;
   height:30px;
   width:65%;
-  max-width: 550px;
+  max-width: 700px;
   border-radius: 5px;
 }
 
 textarea {
   width: 65%;
-  max-width: 550px;
+  max-width: 700px;
   border-radius: 5px;
   margin-bottom: 17px;
 }
@@ -421,3 +423,4 @@ header .pic .text {
 
 
 }
+
