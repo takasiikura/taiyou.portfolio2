@@ -64,7 +64,7 @@ main h2 {
 
 .main2 h2 {
   margin-top: 80px;
-  padding-top: 45px;
+  padding-top: 0px;
   color: white;
   font-weight: bold;
 }
@@ -174,13 +174,13 @@ a:hover {
 input{
   margin:10px 0;
   height:30px;
-  width:55%;
+  width:65%;
   max-width: 750px;
   border-radius: 5px;
 }
 
 textarea {
-  width: 55%;
+  width: 65%;
   max-width: 750px;
   border-radius: 5px;
   margin-bottom: 17px;
@@ -232,18 +232,41 @@ textarea {
   background-position: center;
   background-size: cover;
   background-attachment: fixed ;
+  
   /* background-color: blue; */
 }
 
 .main2 {
+  margin-top: 50px;
+  /* padding-top: 0px; */
   background-image: url("https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed ;
   background-position: center;
   background-size: cover;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  /* overflow: hidden; */
   /* background-color: blue; */
+  }
 
-}
+  .main2:before{
+    content: '';
+    background: inherit;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+  }
+  
 
 /* .main4 {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR9CY7sQKUHeA8lVk_QysSWAchOWMQZDweNuw&usqp=CAU");
