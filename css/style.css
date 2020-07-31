@@ -79,23 +79,23 @@ main h2 {
   color: white;
 }
 
-.main2 .skill-img .p {
+.main2 .img .p {
   color: white;
   font-size: 16px;
   font-weight: normal;
 }
 
-.main2 .skill-img p {
+.main2 .img p {
   color: red;
   font-size: 35px;
   font-weight: bold;
 }
 
-.main2 .skill-set img {
+.main2 .set img {
   width: 120px;
 }
 
-.main2 .skill-set p {
+.main2 .set p {
   padding-bottom: 5px;
 }
 
@@ -103,17 +103,17 @@ main h2 {
   padding-top: 20px;
 }
 
-.main3 .hobby-set p {
+.main3 .set p {
   margin: 0px;
   font-size: 120px;
 }
 
-.main3 .hobby-set .p {
+.main3 .set .p {
   font-size: 15px;
   padding-bottom: 15px;
 }
 
-.main3 .hobby-set p {
+.main3 .set p {
   padding-bottom: 5px;
 }
 
@@ -127,12 +127,12 @@ main h2 {
   margin: 0px;
 }
 
-.main3 .hobby-img p {
+.main3 .img p {
   margin: 0px;
   font-size: 120px;
 }
 
-.main3 .hobby-img .p {
+.main3 .img .p {
   margin: 0px;
   font-size: 16px;
   padding-bottom: 35px;
@@ -351,11 +351,11 @@ header .header-wrapper .text {
     display: flex;
   }
 
-  .main3 .hobby-img {
+  .main3 .img {
     margin-left: 23%
   }
 
-  .main3 .hobby-set {
+  .main3 .set {
     margin-left: 35px;
   }
 
@@ -365,7 +365,7 @@ header .header-wrapper .text {
     display: flex;
   }
 
-  main .Me-wrapper {
+  main .info {
     margin-left: 20%;
     margin-top: 50px;
   }
@@ -374,7 +374,7 @@ header .header-wrapper .text {
     width: 300px;
   }
 
-  main .Me-wrapper p {
+  main .info p {
     font-size: 20px;
   }
 
@@ -382,7 +382,7 @@ header .header-wrapper .text {
     display: flex;
   }
 
-  .main2 .skill-img {
+  .main2 .img {
     margin-left: 16%;
   }
 
@@ -394,19 +394,19 @@ header .header-wrapper .text {
     font-size: 25px;
   }
 
-  .main2 .skill-set {
+  .main2 .set {
     margin-left: 15px;
   }
 
-  .main2 .skill-set p {
+  .main2 .set p {
     margin-top: 30px;
   }
 
-  .main3 .hobby-img .p {
+  .main3 .img .p {
     font-size: 25px;
   }
 
-  .main3 .hobby-set .p {
+  .main3 .set .p {
     font-size: 25px;
     margin-top: -4px;
   }
@@ -448,4 +448,3 @@ header .header-wrapper .text {
 
 
 }
-
