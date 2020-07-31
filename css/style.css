@@ -79,23 +79,23 @@ main h2 {
   color: white;
 }
 
-.main2 .img .p {
+.main2 .skill-img .p {
   color: white;
   font-size: 16px;
   font-weight: normal;
 }
 
-.main2 .img p {
+.main2 .skill-img p {
   color: red;
   font-size: 35px;
   font-weight: bold;
 }
 
-.main2 .set img {
+.main2 .skill-set img {
   width: 120px;
 }
 
-.main2 .set p {
+.main2 .skill-set p {
   padding-bottom: 5px;
 }
 
@@ -103,17 +103,17 @@ main h2 {
   padding-top: 20px;
 }
 
-.main3 .set p {
+.main3 .hobby-set p {
   margin: 0px;
   font-size: 120px;
 }
 
-.main3 .set .p {
+.main3 .hobby-set .p {
   font-size: 15px;
   padding-bottom: 15px;
 }
 
-.main3 .set p {
+.main3 .hobby-set p {
   padding-bottom: 5px;
 }
 
@@ -127,12 +127,12 @@ main h2 {
   margin: 0px;
 }
 
-.main3 .img p {
+.main3 .hobby-img p {
   margin: 0px;
   font-size: 120px;
 }
 
-.main3 .img .p {
+.main3 .hobby-img .p {
   margin: 0px;
   font-size: 16px;
   padding-bottom: 35px;
@@ -282,11 +282,11 @@ header img {
   height: 400px;
 }
 
-header .pic {
+header .header-wrapper {
   position: relative;
 }
 
-header .pic .text {
+header .header-wrapper .text {
   position: absolute;
   left: 40%;
   top: 130px;
@@ -351,11 +351,11 @@ header .pic .text {
     display: flex;
   }
 
-  .main3 .img {
+  .main3 .hobby-img {
     margin-left: 23%
   }
 
-  .main3 .set {
+  .main3 .hobby-set {
     margin-left: 35px;
   }
 
@@ -365,7 +365,7 @@ header .pic .text {
     display: flex;
   }
 
-  main .info {
+  main .Me-wrapper {
     margin-left: 20%;
     margin-top: 50px;
   }
@@ -374,7 +374,7 @@ header .pic .text {
     width: 300px;
   }
 
-  main .info p {
+  main .Me-wrapper p {
     font-size: 20px;
   }
 
@@ -382,7 +382,7 @@ header .pic .text {
     display: flex;
   }
 
-  .main2 .img {
+  .main2 .skill-img {
     margin-left: 16%;
   }
 
@@ -394,19 +394,19 @@ header .pic .text {
     font-size: 25px;
   }
 
-  .main2 .set {
+  .main2 .skill-set {
     margin-left: 15px;
   }
 
-  .main2 .set p {
+  .main2 .skill-set p {
     margin-top: 30px;
   }
 
-  .main3 .img .p {
+  .main3 .hobby-img .p {
     font-size: 25px;
   }
 
-  .main3 .set .p {
+  .main3 .hobby-set .p {
     font-size: 25px;
     margin-top: -4px;
   }
